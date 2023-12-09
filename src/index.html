@@ -23,9 +23,10 @@
                 <div class="modal__subtitle">Заказать звонок</div>
                 <div class="modal__desrc">Закажите звонок и наш специалист позвонит вам в ближайшее время!!!</div>
                 <form action="#" class="form">
-                    <input type="text" class="form__name" placeholder="Имя" required>
-                    <input type="email" class="form__email" placeholder="E-mail" required>
-                    <input type="text" class="form__phone" placeholder="Телефон" required pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$">
+                    <input name="name" type="text" class="form__name" placeholder="Имя">
+                    <input name="email" type="email" class="form__email" placeholder="E-mail">
+                    <input name="phone" type="text" class="form__phone" placeholder="Телефон"
+                        pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$">
                     <button type="submit" class="btn">Заказать звонок</button>
                 </form>
             </div>
@@ -34,9 +35,10 @@
                 <div class="modal__subtitle">Отправить заявку</div>
                 <div class="modal__desrc">Отправьте заявку и наш специалист свяжется с вам в ближайшее время!!!</div>
                 <form action="#" class="form">
-                    <input type="text" class="form__name" placeholder="Имя" required>
-                    <input type="email" class="form__email" placeholder="E-mail" required>
-                    <input type="text" class="form__phone" placeholder="Телефон" required pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$">
+                    <input name="name" type="text" class="form__name" placeholder="Имя">
+                    <input name="email" type="email" class="form__email" placeholder="E-mail">
+                    <input name="phone" type="text" class="form__phone" placeholder="Телефон"
+                        pattern="^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$">
                     <button type="submit" class="btn">Отправить заявку</button>
                 </form>
             </div>
@@ -45,7 +47,8 @@
     <!--Подлючение JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!--Подлючение маски для номера-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
